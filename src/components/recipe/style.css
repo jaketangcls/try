@@ -1,0 +1,16 @@
+.recipeTile {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .recipeTile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipeTile__img {
+    max-width: 100%;
+   
+  }

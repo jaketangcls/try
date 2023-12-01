@@ -1,0 +1,178 @@
+/* .app {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.recipes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.recipe-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+}
+
+.recipe-name {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 90%;
+
+} */
+
+/* App.css */
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+.recipe-name {
+  text-align: center;
+  color: white;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 200px;
+}
+
+.search-button, .clear-button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button:hover, .clear-button:hover {
+  background-color: #45a049;
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.error-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #ff0000;
+}
+
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: white;
+}
+
+.recipeTile {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.recipeTile__img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.recipeTile__name {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.recipeTile.selected {
+  border-color: #4CAF50;
+}
+
+.recipe-details {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.recipe-details img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.recipe-details h2 {
+  color: #333;
+}
+
+.recipe-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-details li {
+  margin-top: 5px;
+}
+.details {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#load{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 20px; /* Adjust the font size here */
+}
